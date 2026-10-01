@@ -2,9 +2,8 @@ import "server-only";
 import { z } from "zod";
 
 const privateConfigSchema = z.object({
-  neynarApiKey: z
-    .string()
-    .min(1, "NEYNAR_API_KEY environment variable is required"),
+  // Opcional no build: a chave só é necessária em runtime pelas rotas /api/neynar
+  neynarApiKey: z.string(),
   coingeckoApiKey: z.string(),
 });
 
