@@ -1,0 +1,13 @@
+{
+  "name": "Rastetris",
+  "shortName": "Rastetris",
+  "subtitle": "Tetris meets Space Invaders",
+  "description": "Stack the blocks and blast the invaders. Hard drop to fire, clear lines to sweep the sky, defend your shields and climb the on-chain leaderboard. One Love!",
+  "shortDescription": "Rasta Tetris x Space Invaders arcade with an on-chain leaderboard",
+  "primaryCategory": "games",
+  "tags": ["game", "tetris", "arcade", "invaders", "reggae"],
+  "splashBackgroundColor": "#0d1a0d",
+  "tagline": "Stack. Shoot. One Love.",
+  "requiredChains": ["eip155:42220"],
+  "shareButtonTitle": "Play Rastetris"
+}
